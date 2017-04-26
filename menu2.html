@@ -1,0 +1,609 @@
+<!doctype html>
+<!--Conditionals for IE8-9 Support-->
+<!--[if IE 8]><html lang="en" class="ie ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<html>
+  
+<!-- Mirrored from the8guild.com/themes/html/eattie/v1.3/menu2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Apr 2017 17:03:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>María Garrido
+    </title>
+    <meta name="description" content="Responsive Restaurant HTML Template" />
+		<meta name="keywords" content="responsive html template, restaurant, cafe, bootstrap 3.0, css, jquery" />
+		<meta name="author" content="8Guild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--Bootstrap 3.3.2-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Icons Fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Modernizr-->
+		<script src="js/libs/modernizr.custom.js"></script>
+    <!--Adding Media Queries Support for IE8-->
+    <!--[if lt IE 9]>
+      <script src="js/plugins/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="js/libs/hash.js"></script>
+  </head>
+  
+  <!--Body-->
+  <body>
+  
+  	<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">
+        <img class="svg" src="img/logo-big.svg" width="133" height="120" alt="Eattie"/>
+        <img class="png" src="img/logo-big.png" width="133" height="120" alt="Eattie"/>
+        <div id="fountainG">
+          <div id="fountainG_1" class="fountainG"></div>
+          <div id="fountainG_2" class="fountainG"></div>
+          <div id="fountainG_3" class="fountainG"></div>
+          <div id="fountainG_4" class="fountainG"></div>
+          <div id="fountainG_5" class="fountainG"></div>
+          <div id="fountainG_6" class="fountainG"></div>
+          <div id="fountainG_7" class="fountainG"></div>
+          <div id="fountainG_8" class="fountainG"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Header-->
+    <header class="pinned"><!--By adding "pinned" class we pinned header to the top of the window-->
+      <div class="container">
+        <a class="logo scroll-up" href="#home"></a>
+        
+        <!--Navigation-->
+        <nav class="navbar" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navi-collapse">
+            <ul class="nav navbar-nav nav-left">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="index.html#about">Nosotros</a></li>
+              <li><a href="index.html#serv-reservation">Reservación</a></li>
+              <li ><a href="menu.html">Menú</a>
+                
+              
+            </ul>
+
+            <ul class="nav navbar-nav nav-right">
+              </li><li class="last"><a href="index.html#news">Promociones</a></li>
+               <li class="last"><a  href="galeria.html"> Galería</a></li>
+              <li class="last"><a href="index.html#contacts">Contáctanos</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </nav><!--Close Navigation -->
+      </div>
+    </header>
+    
+    <!--Menu (2 columns layout)-->
+    <section class="blocks menu2">
+     <div id="canvas">
+
+<div class="zoom-icon zoom-icon-in"></div>
+
+<div class="magazine-viewport">
+  <div class="container">
+    <div class="magazine">
+      <!-- Next button -->
+      <div ignore="1" class="next-button"></div>
+      <!-- Previous button -->
+      <div ignore="1" class="previous-button"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Thumbnails 
+<div class="thumbnails">
+  <div>
+    <ul>
+      <li class="i">
+        <img src="pages/1-thumb.jpg" width="76" height="100" class="page-1">
+        <span>1</span>
+      </li>
+      <li class="d">
+        <img src="pages/2-thumb.jpg" width="76" height="100" class="page-2">
+        <img src="pages/3-thumb.jpg" width="76" height="100" class="page-3">
+        <span>2-3</span>
+      </li>
+      <li class="d">
+        <img src="pages/4-thumb.jpg" width="76" height="100" class="page-4">
+        <img src="pages/5-thumb.jpg" width="76" height="100" class="page-5">
+        <span>4-5</span>
+      </li>
+      <li class="d">
+        <img src="pages/6-thumb.jpg" width="76" height="100" class="page-6">
+        <img src="pages/7-thumb.jpg" width="76" height="100" class="page-7">
+        <span>6-7</span>
+      </li>
+      <li class="d">
+        <img src="pages/8-thumb.jpg" width="76" height="100" class="page-8">
+        <img src="pages/9-thumb.jpg" width="76" height="100" class="page-9">
+        <span>8-9</span>
+      </li>
+      <li class="d">
+        <img src="pages/10-thumb.jpg" width="76" height="100" class="page-10">
+        <img src="pages/11-thumb.jpg" width="76" height="100" class="page-11">
+        <span>10-11</span>
+      </li>
+      <li class="i">
+        <img src="pages/12-thumb.jpg" width="76" height="100" class="page-12">
+        <span>12</span>
+      </li>
+    <ul>
+  <div> 
+</div>
+</div>-->
+
+
+
+
+    </section>
+    
+    <!--Footer-->
+     <footer>
+          <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2">
+            <div class="footer-logo"></div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+            <div class="footer-contacts">
+              <h3>Contactos</h3>
+              <div class="group">
+                <i class="fa fa-map-marker"></i>
+                <p>Parque Tomás Garrido Canabal; Colonia Jesús García, 86040 Villahermosa.</p>
+              </div>
+              <div class="group">
+                <i class="fa fa-mobile"></i>
+                <p>(993)352-0780</p>
+              </div>
+              <div class="group">
+                <i class="fa fa-envelope"></i>
+                <p>mariagarrido@mail.com</p>
+              </div>
+              <div class="group last">
+                <i class="fa fa-clock-o"></i>
+                <p>Abierto <br>Lunes-Miercoles 14:00pm-12:00am ; <br>Jueves-Sabado 14:00pm-2:00am ;<br/>Domingo 14:00pm-22:00pm</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+            
+         
+            <h3>Nuestras redes sociales</h3>
+            <div class="social-bar">
+              <a href="https://www.instagram.com/restmariagarrido/" target="blank" class="fa fa-instagram tooltipped" title="Instagram"></a>
+              
+              <a href="https://www.facebook.com/ResMariaGarrido/" target="blank" class="fa fa-facebook-square tooltipped" title="Facebook"></a>
+              
+              <a href="https://twitter.com/ResMariaGarrido?lang=es" target="blank"class="fa fa-twitter-square tooltipped"  title="Twitter"></a>
+            </div>
+          </div> 
+        </div>
+        <div class="copyright row">
+          <div class="col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2">
+            <p>&copy; Restaurante María Garrido</p>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+    <script type="text/javascript">
+
+function loadApp() {
+
+  $('#canvas').fadeIn(1000);
+
+  var flipbook = $('.magazine');
+
+  // Check if the CSS was already loaded
+  
+  if (flipbook.width()==0 || flipbook.height()==0) {
+    setTimeout(loadApp, 10);
+    return;
+  }
+  
+  // Create the flipbook
+
+  flipbook.turn({
+      
+      // Magazine width
+
+      width: 922,
+
+      // Magazine height
+
+      height: 600,
+
+      // Duration in millisecond
+
+      duration: 1000,
+
+      // Hardware acceleration
+
+      acceleration: !isChrome(),
+
+      // Enables gradients
+
+      gradients: true,
+      
+      // Auto center this flipbook
+
+      autoCenter: true,
+
+      // Elevation from the edge of the flipbook when turning a page
+
+      elevation: 50,
+
+      // The number of pages
+
+      pages: 12,
+
+      // Events
+
+      when: {
+        turning: function(event, page, view) {
+          
+          var book = $(this),
+          currentPage = book.turn('page'),
+          pages = book.turn('pages');
+      
+          // Update the current URI
+
+          Hash.go('page/' + page).update();
+
+          // Show and hide navigation buttons
+
+          disableControls(page);
+          
+
+          $('.thumbnails .page-'+currentPage).
+            parent().
+            removeClass('current');
+
+          $('.thumbnails .page-'+page).
+            parent().
+            addClass('current');
+
+
+
+        },
+
+        turned: function(event, page, view) {
+
+          disableControls(page);
+
+          $(this).turn('center');
+
+          if (page==1) { 
+            $(this).turn('peel', 'br');
+          }
+
+        },
+
+        missing: function (event, pages) {
+
+          // Add pages that aren't in the magazine
+
+          for (var i = 0; i < pages.length; i++)
+            addPage(pages[i], $(this));
+
+        }
+      }
+
+  });
+
+  // Zoom.js
+
+  $('.magazine-viewport').zoom({
+    flipbook: $('.magazine'),
+
+    max: function() { 
+      
+      return largeMagazineWidth()/$('.magazine').width();
+
+    }, 
+
+    when: {
+
+      swipeLeft: function() {
+
+        $(this).zoom('flipbook').turn('next');
+
+      },
+
+      swipeRight: function() {
+        
+        $(this).zoom('flipbook').turn('previous');
+
+      },
+
+      resize: function(event, scale, page, pageElement) {
+
+        if (scale==1)
+          loadSmallPage(page, pageElement);
+        else
+          loadLargePage(page, pageElement);
+
+      },
+
+      zoomIn: function () {
+
+        $('.thumbnails').hide();
+        $('.made').hide();
+        $('.magazine').removeClass('animated').addClass('zoom-in');
+        $('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
+        
+        if (!window.escTip && !$.isTouch) {
+          escTip = true;
+
+          $('<div />', {'class': 'exit-message'}).
+            html('<div>Press ESC to exit</div>').
+              appendTo($('body')).
+              delay(2000).
+              animate({opacity:0}, 500, function() {
+                $(this).remove();
+              });
+        }
+      },
+
+      zoomOut: function () {
+
+        $('.exit-message').hide();
+        $('.thumbnails').fadeIn();
+        $('.made').fadeIn();
+        $('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
+
+        setTimeout(function(){
+          $('.magazine').addClass('animated').removeClass('zoom-in');
+          resizeViewport();
+        }, 0);
+
+      }
+    }
+  });
+
+  // Zoom event
+
+  if ($.isTouch)
+    $('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
+  else
+    $('.magazine-viewport').bind('zoom.tap', zoomTo);
+
+
+  // Using arrow keys to turn the page
+
+  $(document).keydown(function(e){
+
+    var previous = 37, next = 39, esc = 27;
+
+    switch (e.keyCode) {
+      case previous:
+
+        // left arrow
+        $('.magazine').turn('previous');
+        e.preventDefault();
+
+      break;
+      case next:
+
+        //right arrow
+        $('.magazine').turn('next');
+        e.preventDefault();
+
+      break;
+      case esc:
+        
+        $('.magazine-viewport').zoom('zoomOut');  
+        e.preventDefault();
+
+      break;
+    }
+  });
+
+  // URIs - Format #/page/1 
+
+  Hash.on('^page\/([0-9]*)$', {
+    yep: function(path, parts) {
+      var page = parts[1];
+
+      if (page!==undefined) {
+        if ($('.magazine').turn('is'))
+          $('.magazine').turn('page', page);
+      }
+
+    },
+    nop: function(path) {
+
+      if ($('.magazine').turn('is'))
+        $('.magazine').turn('page', 1);
+    }
+  });
+
+
+  $(window).resize(function() {
+    resizeViewport();
+  }).bind('orientationchange', function() {
+    resizeViewport();
+  });
+
+  // Events for thumbnails
+
+  $('.thumbnails').click(function(event) {
+    
+    var page;
+
+    if (event.target && (page=/page-([0-9]+)/.exec($(event.target).attr('class'))) ) {
+    
+      $('.magazine').turn('page', page[1]);
+    }
+  });
+
+  $('.thumbnails li').
+    bind($.mouseEvents.over, function() {
+      
+      $(this).addClass('thumb-hover');
+
+    }).bind($.mouseEvents.out, function() {
+      
+      $(this).removeClass('thumb-hover');
+
+    });
+
+  if ($.isTouch) {
+  
+    $('.thumbnails').
+      addClass('thumbanils-touch').
+      bind($.mouseEvents.move, function(event) {
+        event.preventDefault();
+      });
+
+  } else {
+
+    $('.thumbnails ul').mouseover(function() {
+
+      $('.thumbnails').addClass('thumbnails-hover');
+
+    }).mousedown(function() {
+
+      return false;
+
+    }).mouseout(function() {
+
+      $('.thumbnails').removeClass('thumbnails-hover');
+
+    });
+
+  }
+
+
+  // Regions
+
+  if ($.isTouch) {
+    $('.magazine').bind('touchstart', regionClick);
+  } else {
+    $('.magazine').click(regionClick);
+  }
+
+  // Events for the next button
+
+  $('.next-button').bind($.mouseEvents.over, function() {
+    
+    $(this).addClass('next-button-hover');
+
+  }).bind($.mouseEvents.out, function() {
+    
+    $(this).removeClass('next-button-hover');
+
+  }).bind($.mouseEvents.down, function() {
+    
+    $(this).addClass('next-button-down');
+
+  }).bind($.mouseEvents.up, function() {
+    
+    $(this).removeClass('next-button-down');
+
+  }).click(function() {
+    
+    $('.magazine').turn('next');
+
+  });
+
+  // Events for the next button
+  
+  $('.previous-button').bind($.mouseEvents.over, function() {
+    
+    $(this).addClass('previous-button-hover');
+
+  }).bind($.mouseEvents.out, function() {
+    
+    $(this).removeClass('previous-button-hover');
+
+  }).bind($.mouseEvents.down, function() {
+    
+    $(this).addClass('previous-button-down');
+
+  }).bind($.mouseEvents.up, function() {
+    
+    $(this).removeClass('previous-button-down');
+
+  }).click(function() {
+    
+    $('.magazine').turn('previous');
+
+  });
+
+
+  resizeViewport();
+
+  $('.magazine').addClass('animated');
+
+}
+
+// Zoom icon
+
+ $('.zoom-icon').bind('mouseover', function() { 
+  
+  if ($(this).hasClass('zoom-icon-in'))
+    $(this).addClass('zoom-icon-in-hover');
+
+  if ($(this).hasClass('zoom-icon-out'))
+    $(this).addClass('zoom-icon-out-hover');
+ 
+ }).bind('mouseout', function() { 
+  
+   if ($(this).hasClass('zoom-icon-in'))
+    $(this).removeClass('zoom-icon-in-hover');
+  
+  if ($(this).hasClass('zoom-icon-out'))
+    $(this).removeClass('zoom-icon-out-hover');
+
+ }).bind('click', function() {
+
+  if ($(this).hasClass('zoom-icon-in'))
+    $('.magazine-viewport').zoom('zoomIn');
+  else if ($(this).hasClass('zoom-icon-out')) 
+    $('.magazine-viewport').zoom('zoomOut');
+
+ });
+
+ $('#canvas').hide();
+
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+  test : Modernizr.csstransforms,
+  yep: ['js/libs/turn.js'],
+  nope: ['js/libs/turn.html4.min.js'],
+  both: ['js/libs/zoom.min.js', 'js/magazine.js', 'css/magazine.css'],
+  complete: loadApp
+});
+
+</script>
+    <!--Javascript (jQuery)-->
+		<script src="js/libs/jquery-1.11.2.min.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/jquery.validate.min.js"></script>
+		<script src="js/scripts-secondary.js"></script>
+    
+  </body>
+</html>

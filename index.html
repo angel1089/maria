@@ -1,0 +1,383 @@
+<!doctype html>
+<!--Conditionals for IE8-9 Support-->
+<!--[if IE 8]><html lang="en" class="ie ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<html>
+  
+<!-- Mirrored from the8guild.com/themes/html/eattie/v1.3/home-slideshow.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Apr 2017 17:00:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>María Garrido</title>
+    <meta name="description" content="Responsive Restaurant HTML Template" />
+		<meta name="keywords" content="responsive html template, restaurant, cafe, bootstrap 3.0, css, jquery" />
+		<meta name="author" content="8Guild" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--Bootstrap 3.3.2-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Icons Fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <!--Animations-->
+    <link href="css/animate-custom.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Google Maps API-->
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!--Modernizr-->
+		<script src="js/libs/modernizr.custom.js"></script>
+
+    <!--Adding Media Queries Support for IE8-->
+    <!--[if lt IE 9]>
+      <script src="js/plugins/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <!--Body-->
+  <body>
+  
+  	<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">
+        <img class="svg" src="img/logo-big.svg" width="133" height="120" alt="Eattie"/>
+        <img class="png" src="img/logo-big.png" width="133" height="120" alt="Eattie"/>
+        <div id="fountainG">
+          <div id="fountainG_1" class="fountainG"></div>
+          <div id="fountainG_2" class="fountainG"></div>
+          <div id="fountainG_3" class="fountainG"></div>
+          <div id="fountainG_4" class="fountainG"></div>
+          <div id="fountainG_5" class="fountainG"></div>
+          <div id="fountainG_6" class="fountainG"></div>
+          <div id="fountainG_7" class="fountainG"></div>
+          <div id="fountainG_8" class="fountainG"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Intro Fullscreen Slideshow-->
+  	<section class="intro-slideshow" id="home">
+    	<ul>
+      	<li style="background-image: url(img/intro/1.jpg)"></li>
+      	<li style="background-image: url(img/intro/2.jpg)"></li>
+      	<li style="background-image: url(img/intro/3.jpg)"></li>
+      </ul>
+    </section>
+    
+    <!--Intro Title-->
+    <section class="intro-title animated">
+    	<h1>María Garrido</h1>
+      <div class="social-bar">
+      	<a href="https://www.instagram.com/restmariagarrido/" target="blank" class="fa fa-instagram tooltipped" title="Instagram"></a>
+              
+        <a href="https://www.facebook.com/ResMariaGarrido/" target="blank" class="fa fa-facebook-square tooltipped" title="Facebook"></a>
+              
+        <a href="https://twitter.com/ResMariaGarrido?lang=es" target="blank"class="fa fa-twitter-square tooltipped"  title="Twitter"></a>
+      </div>
+    </section>
+    
+    <!--Wrapper-->
+    <div id="wrapper">
+    
+      <!--Header-->
+      <header class="stiky"><!--By adding "stiky" class to header we enable stiky functionality, header will be pinned to the top, when it meets the top of the window-->
+        <div class="container">
+        	<a class="logo scroll-up" href="#home"></a>
+          
+          <!--Navigation-->
+          <nav class="navbar" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navi-collapse">
+              <ul class="nav navbar-nav nav-left">
+                <li class="active"><a class="scroll-up" href="#home">Inicio</a></li>
+                <li><a class="scroll" href="#about"></a></li>
+                <li><a class="scroll" href="#serv-reservation">Reservación</a></li>
+                 <li><a  href="menu2.html">Menú</a></li>
+                
+              </ul>
+              <ul class="nav navbar-nav nav-right">
+                <li><a  href="galeria.html">Galería</a></li>
+               <li class="last"><a class="scroll" href="#news">Promociones</a></li>
+                <li class="last"><a class="scroll" href="#contacts">Contacto</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </nav><!--Close Navigation -->
+        </div>
+      </header>
+      
+      <!--About
+      <section class="block about" id="about">
+        <div class="heading"><h2>Nosotros</h2><span class="triangle"></span></div>
+        <div class="about-slider">
+        	<div class="info-bg"></div>
+        	<div class="info animation" data-animation="fadeInLeft">
+          	<div class="pager"></div>
+            <div class="info-slider">
+            	<div>
+                <img class="svg" src="img/about/icon1.svg" width="101" height="101" alt="Established"/>
+                <img class="png" src="img/about/icon1.png" width="101" height="101" alt="Established"/>
+                <h3>est. 1985</h3>
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+              </div>
+            	<div>
+                <img class="svg" src="img/about/icon2.svg" width="101" height="101" alt="Our Mission"/>
+                <img class="png" src="img/about/icon2.png" width="101" height="101" alt="Our Mission"/>
+                <h3>Our Mission</h3>
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+            	<div>
+                <img class="svg" src="img/about/icon3.svg" width="101" height="101" alt="Cooking Traditions"/>
+                <img class="png" src="img/about/icon3.png" width="101" height="101" alt="Cooking Traditions"/>
+                <h3>Cooking Traditions</h3>
+                <p><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+          </div>
+        	<div class="about-slider-inner">
+            <div><img src="img/about/1.jpg" width="1920" height="570" alt="Slide1"/></div>
+            <div><img src="img/about/2.jpg" width="1920" height="570" alt="Slide2"/></div>
+            <div><img src="img/about/3.jpg" width="1920" height="570" alt="Slide3"/></div>
+          </div>
+        </div>
+      </section>-->
+      
+      <!--Services Reservation-->
+      <section class="block reservation" id="serv-reservation">
+      	<div class="overlay"></div>
+        <div class="heading"><h2>Reservación</h2><span class="triangle"></span></div>
+        
+        <!-- Nav tabs -->
+				
+        
+        <div class="reservation-inner">
+        
+        	<!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="table">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 animation" data-animation='fadeInLeft'>
+                      <form action="formulario.php" class="form form-table" method="post" name="form" id="form">
+                        <h4>Reserve su mesa o evento</h4>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 form-group">
+                          
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="first_name1">Nombre</label>
+                            <input class="form-control" type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+                          </div>
+                           <div class="col-lg-6 col-md-6 form-group">
+                            
+                            <label class="sr-only" for="numb_guests1">Personas</label>
+                            
+                            <input class="form-control" type="text" id="personas" name="personas" placeholder="Personas" required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="email1">email</label>
+                            <input class="form-control" type="email" id="Email" name="Email" placeholder="Email@" required>
+                          </div>
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="phone1">Teléfono</label>
+                            <input class="form-control" type="text" id="telefono" name="telefono" placeholder="Teléfono" required>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="reserv_date1">Día</label>
+                            <input class="form-control datepicker" type="text" id="dia" name="dia" placeholder="Día" required>
+                          </div>
+                          
+                          <div class="col-lg-6 col-md-6 form-group">
+                            <label class="sr-only" for="time1">Hora</label>
+                            <input class="form-control timepicker" type="text" id="hora" name="hora" placeholder="Hora" required>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          
+                          
+                          <div class="col-lg-12 col-md-12 form-group">
+                            <label class="sr-only" for="alt_reserv_date1">Mensaje</label>
+
+                            <textarea class="form-control datepicker" type="text" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                          </div>
+                        </div>
+                      
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </div>
+                        </div>
+                      </form>
+                       <script src="js/jqueryform1.js"></script>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              
+             
+              
+              
+            
+              	
+              
+          </div><!--Close all Tabs Panes-->
+        </div>      
+      </section>
+      
+      <!--News-->
+      <section class="block news" id="news">
+        <div class="heading"><h2>Promociones</h2><span class="triangle"></span></div>
+        
+        <div class="container animation" data-animation="fadeInUp">
+        
+          <!--News Carousel-->
+          <div id="news-carousel" class="carousel slide" data-ride="carousel">
+          
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#news-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#news-carousel" data-slide-to="1"></li>
+              <li data-target="#news-carousel" data-slide-to="2"></li>
+            </ol>
+            
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+            
+              <!--Slide1-->
+              <div class="item active">
+                <div class="container">
+                  <div class="col-lg-12 col-md-12 col-lg-offset-1 col-md-offset-1">
+                    <!--<h3>Season menu</h3>
+                    <h4>1.06.2014</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>-->
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <img src="img/news/1.png" width="322" height="282" alt="News1"/>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Slide2-->
+              <div class="item">
+                <div class="container">
+                  <div class="col-lg-12 col-md-12 col-lg-offset-1 col-md-offset-1">
+                    
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <img src="img/news/2.png" width="322" height="282" alt="News2"/>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Slide3-->
+              <div class="item">
+                <div class="container">
+                  <div class="col-lg-12 col-md-12 col-lg-offset-1 col-md-offset-1">
+                    
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <img src="img/news/3.png" width="322" height="282" alt="News3"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+      <!--Contacts-->
+      <section class="block contacts" id="contacts">
+        <div class="heading"><h2>Contáctanos</h2><span class="triangle"></span></div>
+        <div class="map_canva"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.548150318853!2d-92.9398104854461!3d17.999747289593145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85edd78a82882d93%3A0x768a68d0dfecca45!2sRestaurante-Bar+Mar%C3%ADa+Garrido!5e0!3m2!1ses!2smx!4v1484334852443" width="100%" height="450"  allowfullscreen></iframe></div>
+        </section>
+       
+      
+      <!--Footer-->
+      <footer>
+      		<div class="container">
+        <div class="row">
+        	<div class="col-lg-2 col-md-2">
+          	<div class="footer-logo"></div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+          	<div class="footer-contacts">
+            	<h3>Contactos</h3>
+              <div class="group">
+                <i class="fa fa-map-marker"></i>
+                <p>Parque Tomás Garrido Canabal; Colonia Jesús García, 86040 Villahermosa.</p>
+              </div>
+              <div class="group">
+                <i class="fa fa-mobile"></i>
+                <p>(993)352-0780</p>
+              </div>
+              <div class="group">
+                <i class="fa fa-envelope"></i>
+                <p>mariagarrido@mail.com</p>
+              </div>
+              <div class="group last">
+                <i class="fa fa-clock-o"></i>
+                <p>Abierto <br>Lunes-Miercoles 14:00pm-12:00am ; <br>Jueves-Sabado 14:00pm-2:00am ;<br/>Domingo 14:00pm-22:00pm</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+          	
+         
+          	<h3>Nuestras redes sociales</h3>
+            <div class="social-bar">
+              <a href="https://www.instagram.com/restmariagarrido/" target="blank" class="fa fa-instagram tooltipped" title="Instagram"></a>
+              
+              <a href="https://www.facebook.com/ResMariaGarrido/" target="blank" class="fa fa-facebook-square tooltipped" title="Facebook"></a>
+              
+              <a href="https://twitter.com/ResMariaGarrido?lang=es" target="blank"class="fa fa-twitter-square tooltipped"  title="Twitter"></a>
+            </div>
+          </div> 
+        </div>
+        <div class="copyright row">
+        	<div class="col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2">
+          	<p>&copy; Restaurante María Garrido</p>
+          </div>
+        </div>
+        </div>
+      </footer>
+    
+    </div><!--Close Wrapper-->
+    
+    <!--Javascript (jQuery)-->
+		<script src="js/libs/jquery-1.11.2.min.js"></script>
+		<script src="js/libs/jquery.easing.1.3.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/plugins/jquery.touchSwipe.min.js"></script>
+		<script src="js/plugins/jquery.cycle.min.js"></script>
+		<script src="js/plugins/waypoints.min.js"></script>
+		<script src="js/plugins/waypoints-sticky.min.js"></script>
+		<script src="js/plugins/datepicker.min.js"></script>
+		<script src="js/plugins/timepicker.min.js"></script>
+		<script src="js/plugins/jquery.validate.min.js"></script>
+		<script src="js/scripts-main.js"></script>
+    
+  </body><!--Close Body-->
+
+<!-- Mirrored from the8guild.com/themes/html/eattie/v1.3/home-slideshow.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Apr 2017 17:01:06 GMT -->
+</html>
