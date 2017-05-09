@@ -16,7 +16,7 @@ $Email = $_POST['Email'];
 $dia = $_POST['dia'];
 $personas = $_POST['personas'];
 $telefono = $_POST['telefono'];
-$hora = $_POST['hora'];
+$hora = $_POST['single-input'];
 $mensaje = $_POST['mensaje'];
 
 //$archivo = $_FILES['adjunto'];

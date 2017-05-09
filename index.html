@@ -1,17 +1,14 @@
 <!doctype html>
-<!--Conditionals for IE8-9 Support-->
-<!--[if IE 8]><html lang="en" class="ie ie8"><![endif]-->
-<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+
 <html>
   
-<!-- Mirrored from the8guild.com/themes/html/eattie/v1.3/home-slideshow.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Apr 2017 17:00:18 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="utf-8">
     <title>María Garrido</title>
     <meta name="description" content="Responsive Restaurant HTML Template" />
-		<meta name="keywords" content="responsive html template, restaurant, cafe, bootstrap 3.0, css, jquery" />
-		<meta name="author" content="8Guild" />
+	<meta name="keywords" content="responsive html template, restaurant, cafe, bootstrap 3.0, css, jquery" />
+	<meta name="author" content="8Guild" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -20,7 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <!--Bootstrap 3.3.2-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
     <!--Icons Fonts-->
     <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
     <!--Animations-->
@@ -29,13 +26,25 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <!--Google Maps API-->
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+   
+   <!--Gallery-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <!--Modernizr-->
-		<script src="js/libs/modernizr.custom.js"></script>
+    <script src="js/libs/modernizr.custom.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script src="js/gallery.js"></script>
+    <script type="text/javascript" src="js/libs/hash.js"></script>
+    <script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
 
-    <!--Adding Media Queries Support for IE8-->
-    <!--[if lt IE 9]>
-      <script src="js/plugins/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="http://weareoutman.github.io/clockpicker/dist/jquery-clockpicker.min.css">
+     
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="http://weareoutman.github.io/clockpicker/dist/jquery-clockpicker.min.js"></script>
   </head>
   
   <!--Body-->
@@ -107,7 +116,7 @@
                 
               </ul>
               <ul class="nav navbar-nav nav-right">
-                <li><a  href="galeria.html">Galería</a></li>
+                <li><a  class="scroll" href="#galeria">Galería</a></li>
                <li class="last"><a class="scroll" href="#news">Promociones</a></li>
                 <li class="last"><a class="scroll" href="#contacts">Contacto</a></li>
               </ul>
@@ -205,8 +214,39 @@
                           
                           <div class="col-lg-6 col-md-6 form-group">
                             <label class="sr-only" for="time1">Hora</label>
-                            <input class="form-control timepicker" type="text" id="hora" name="hora" placeholder="Hora" required>
-                          </div>
+                           
+                           
+     
+                        <input class="form-control" id="single-input" value="" name="single-input" placeholder="Hora">
+
+
+<script type="text/javascript">
+var input = $('#single-input').clockpicker({
+    placement: 'bottom',
+    align: 'left',
+    autoclose: true,
+    'default': 'now'
+});
+
+// Manually toggle to the minutes view
+$('#check-minutes').click(function(e){
+    // Have to stop propagation here
+    e.stopPropagation();
+    input.clockpicker('show')
+            .clockpicker('toggleView', 'minutes');
+});
+</script>
+                            
+                          
+
+                    </div>
+ 
+  
+   
+
+
+
+
                         </div>
                         
                         <div class="row">
@@ -236,7 +276,54 @@
         </div>      
       </section>
       
-      <!--News-->
+
+
+<!--Galeria-->
+ <section class="block news" id="galeria">
+        <div class="heading"><h2>Galería</h2><span class="triangle"></span></div>
+        
+    
+      <div class="container gallery">
+           
+         <br><br>
+
+            <ul class="thumbnails">
+                <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/1.jpg"><img class="group1" src="img/pics/1.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/2.jpg"><img class="group1" src="img/pics/2.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/3.jpg"><img class="group1" src="img/pics/3.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/4.jpg"><img class="group1" src="img/pics/4.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/5.jpg"><img class="group1" src="img/pics/5.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/6.jpg"><img class="group1" src="img/pics/6.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/7.jpg"><img class="group1" src="img/pics/7.jpg" title="Image Title" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/8.jpg"><img class="group1" src="img/pics/8.jpg" title="Image Title" /></a>
+                    </li>
+
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/9.jpg"><img class="group1" src="img/pics/9.jpg" title="Image Title" /></a>
+                    </li> 
+                    <!--end thumb -->
+            </ul><!--end thumbnails -->
+        </div> 
+    </section>
+    
+
+
+     <!--News-->
       <section class="block news" id="news">
         <div class="heading"><h2>Promociones</h2><span class="triangle"></span></div>
         
@@ -351,8 +438,9 @@
         </div>
       </footer>
     
-    </div><!--Close Wrapper-->
+    <!--Close Wrapper-->
     
+  
     <!--Javascript (jQuery)-->
 		<script src="js/libs/jquery-1.11.2.min.js"></script>
 		<script src="js/libs/jquery.easing.1.3.js"></script>
@@ -365,7 +453,26 @@
 		<script src="js/plugins/timepicker.min.js"></script>
 		<script src="js/plugins/jquery.validate.min.js"></script>
 		<script src="js/scripts-main.js"></script>
-    
+        <script src="js/plugins/jquery.raty.min.js"></script>
+        <script src="js/scripts-secondary.js"></script>
+        <script src="js/plugins/jquery.validate.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+
+            // Colorbox Call
+
+            $(document).ready(function(){
+                $("[rel^='lightbox']").prettyPhoto();
+            });
+        </script>
   </body><!--Close Body-->
 
 

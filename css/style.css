@@ -573,7 +573,7 @@ li.dropdown.open a {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	margin: 40px auto 0 auto;
+	margin: 0 auto;
 }
 #news-carousel {
 	padding: 90px 0 110px 0;
@@ -726,7 +726,7 @@ li.dropdown.open a {
   line-height: 1.428571429;
   color: #fff;
   vertical-align: middle;
-  background-color: transparent;
+  background-color: transparent !important;
 	border: 2px solid #fff;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -1052,9 +1052,7 @@ li.ui-timepicker-selected,
 }
 
 /*Menu*/
-.menu1,
-.menu2 {
-	padding: 90px 0 20px 0;
+
 }
 .menu1 {
 	padding-bottom: 0px;
@@ -2066,3 +2064,6 @@ input.hint {
         transition: background-color 300ms ease !important;
     }
 }
+
+
+
